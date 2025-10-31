@@ -1,5 +1,4 @@
-texto = input("Escribe un texto: ")
-
-veces = texto.lower().count("python")
-
-print("La palabra 'Python' aparece", veces, "veces.")
+texto = input("Introduce un texto:\n")
+texto_minusculas = texto.lower()
+contador = texto_minusculas.count("python")
+print(f"Python aparece {contador} veces en el texto.")
